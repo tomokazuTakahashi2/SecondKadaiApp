@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64142D43230301B600DACBA4 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64142D42230301B600DACBA4 /* ResultViewController.swift */; };
 		643E98262302FE7600C13252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643E98252302FE7600C13252 /* AppDelegate.swift */; };
 		643E98282302FE7600C13252 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643E98272302FE7600C13252 /* ViewController.swift */; };
 		643E982B2302FE7600C13252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643E98292302FE7600C13252 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64142D42230301B600DACBA4 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		643E98222302FE7600C13252 /* SecondKadaiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondKadaiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		643E98252302FE7600C13252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		643E98272302FE7600C13252 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				643E982C2302FE7600C13252 /* Assets.xcassets */,
 				643E982E2302FE7600C13252 /* LaunchScreen.storyboard */,
 				643E98312302FE7600C13252 /* Info.plist */,
+				64142D42230301B600DACBA4 /* ResultViewController.swift */,
 			);
 			path = SecondKadaiApp;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				643E98282302FE7600C13252 /* ViewController.swift in Sources */,
 				643E98262302FE7600C13252 /* AppDelegate.swift in Sources */,
+				64142D43230301B600DACBA4 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,14 +286,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = takahashi.SecondKadaiApp;
+				PRODUCT_BUNDLE_IDENTIFIER = SecondKadaiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,14 +306,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = takahashi.SecondKadaiApp;
+				PRODUCT_BUNDLE_IDENTIFIER = SecondKadaiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
